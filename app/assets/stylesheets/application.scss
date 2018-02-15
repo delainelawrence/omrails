@@ -1,2 +1,14 @@
-// Custom bootstrap variables must be set or imported *before* bootstrap.
+// Custom bootstrap variables must be set or imported before bootstrap itself.
 @import "bootstrap";
+
+body {
+    padding-top: 1.5rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 46rem;
+}
